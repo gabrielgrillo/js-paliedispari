@@ -10,15 +10,21 @@ console.log('pari e dispari')
 let numeroUtente = parseInt(prompt('Inserisci un numero da 1 a 5'))
 // console.log(evenOdd, numeroUtente)
 
+//FUNZIONE NUMERO CASUALE
 function numeroCasuale(e) {
     let num = (Math.floor(Math.random() * 5) + 1)
     return num
 }
 let numPc = numeroCasuale()
 let somma = numeroUtente + numPc
-console.log(numeroUtente)
-console.log(numPc)
-console.log(somma)
 
-// numeroCasuale()
-// console.log(numeroCasuale())
+// console.log(numeroUtente)
+// console.log(numPc)
+// console.log(somma)
+
+//FUNZIONE CONTROLLO SE PARI
+function isEven(e) {
+
+}
+
+
